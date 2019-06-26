@@ -115,6 +115,27 @@ return [
 	"management" => "Product Management",
 	"main" => "Products",
 	],
+	"customerorders" => [
+	"all" => "All Customerorders",
+	"create" => "Create Customerorder",
+	"edit" => "Edit Customerorder",
+	"management" => "Customerorder Management",
+	"main" => "Customerorders",
+	],
+	"customerorderdetails" => [
+	"all" => "All Customerorderdetails",
+	"create" => "Create Customerorderdetail",
+	"edit" => "Edit Customerorderdetail",
+	"management" => "Customerorderdetail Management",
+	"main" => "Customerorderdetails",
+	],
+	"factories" => [
+	"all" => "All Factories",
+	"create" => "Create Factory",
+	"edit" => "Edit Factory",
+	"management" => "Factory Management",
+	"main" => "Factories",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",

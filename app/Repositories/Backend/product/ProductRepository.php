@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories\Backend\product;
+namespace App\Repositories\Backend\Product;
 
 use DB;
 use Carbon\Carbon;

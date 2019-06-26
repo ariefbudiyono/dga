@@ -23,4 +23,13 @@ return [
 	"products" => [
 	"table" => "products",
 	],
+	"customerorders" => [
+	"table" => "customer_orders",
+	],
+	"customerorderdetails" => [
+	"table" => "customer_order_detail",
+	],
+	"factories" => [
+	"table" => "factories",
+	],
 ];

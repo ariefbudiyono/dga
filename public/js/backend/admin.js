@@ -347,7 +347,7 @@ var Backend = {}; // common variable used in all the files of the backend
             },
 
             addHandlers: function () {
-
+                console.log('tes selector Blog');
                 this.selectors.tags.select2({
                     tags: true,
                 });
@@ -382,6 +382,10 @@ var Backend = {}; // common variable used in all the files of the backend
 
             }
         },
+
+      
+
+        
 
         Menu: {
             selectors: {

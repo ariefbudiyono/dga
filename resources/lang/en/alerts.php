@@ -59,5 +59,20 @@ return [
 	"deleted" => "The Product was successfully deleted.",
 	"updated" => "The Product was successfully updated.",
 	],
+	"customerorders" => [
+	"created" => "The Customerorder was successfully created.",
+	"deleted" => "The Customerorder was successfully deleted.",
+	"updated" => "The Customerorder was successfully updated.",
+	],
+	"customerorderdetails" => [
+	"created" => "The Customerorderdetail was successfully created.",
+	"deleted" => "The Customerorderdetail was successfully deleted.",
+	"updated" => "The Customerorderdetail was successfully updated.",
+	],
+	"factories" => [
+	"created" => "The Factory was successfully created.",
+	"deleted" => "The Factory was successfully deleted.",
+	"updated" => "The Factory was successfully updated.",
+	],
 	],
 ];

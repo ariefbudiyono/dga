@@ -1,21 +1,22 @@
 <?php
 
-namespace App\Http\Controllers\Backend\product;
+namespace App\Http\Controllers\Backend\Product;
 
 use App\Models\Product\Product;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Responses\RedirectResponse;
 use App\Http\Responses\ViewResponse;
-use App\Http\Responses\Backend\product\CreateResponse;
-use App\Http\Responses\Backend\product\EditResponse;
-use App\Repositories\Backend\product\ProductRepository;
-use App\Http\Requests\Backend\product\ManageProductRequest;
-use App\Http\Requests\Backend\product\CreateProductRequest;
-use App\Http\Requests\Backend\product\StoreProductRequest;
-use App\Http\Requests\Backend\product\EditProductRequest;
-use App\Http\Requests\Backend\product\UpdateProductRequest;
-use App\Http\Requests\Backend\product\DeleteProductRequest;
+use App\Http\Responses\Backend\Product\CreateResponse;
+use App\Http\Responses\Backend\Product\EditResponse;
+use App\Repositories\Backend\Product\ProductRepository;
+
+use App\Http\Requests\Backend\Product\ManageProductRequest;
+use App\Http\Requests\Backend\Product\CreateProductRequest;
+use App\Http\Requests\Backend\Product\StoreProductRequest;
+use App\Http\Requests\Backend\Product\EditProductRequest;
+use App\Http\Requests\Backend\Product\UpdateProductRequest;
+use App\Http\Requests\Backend\Product\DeleteProductRequest;
 
 /**
  * ProductsController

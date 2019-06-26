@@ -85,6 +85,27 @@ return [
 	"not_found" => "That Product does not exist.",
 	"update_error" => "There was a problem updating this Product. Please try again.",
 	],
+	"customerorders" => [
+	"already_exists" => "That Customerorder already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Customerorder. Please try again.",
+	"delete_error" => "There was a problem deleting this Customerorder. Please try again.",
+	"not_found" => "That Customerorder does not exist.",
+	"update_error" => "There was a problem updating this Customerorder. Please try again.",
+	],
+	"customerorderdetails" => [
+	"already_exists" => "That Customerorderdetail already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Customerorderdetail. Please try again.",
+	"delete_error" => "There was a problem deleting this Customerorderdetail. Please try again.",
+	"not_found" => "That Customerorderdetail does not exist.",
+	"update_error" => "There was a problem updating this Customerorderdetail. Please try again.",
+	],
+	"factories" => [
+	"already_exists" => "That Factory already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Factory. Please try again.",
+	"delete_error" => "There was a problem deleting this Factory. Please try again.",
+	"not_found" => "That Factory does not exist.",
+	"update_error" => "There was a problem updating this Factory. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [

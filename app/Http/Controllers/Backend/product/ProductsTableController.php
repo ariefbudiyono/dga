@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Backend\product;
+namespace App\Http\Controllers\Backend\Product;
 
 use Carbon\Carbon;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\Facades\DataTables;
-use App\Repositories\Backend\product\ProductRepository;
-use App\Http\Requests\Backend\product\ManageProductRequest;
+use App\Repositories\Backend\Product\ProductRepository;
+use App\Http\Requests\Backend\Product\ManageProductRequest;
 
 /**
  * Class ProductsTableController.

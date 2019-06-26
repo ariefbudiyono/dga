@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\product\Traits;
+namespace App\Models\Product\Traits;
 
 /**
  * Class ProductRelationship

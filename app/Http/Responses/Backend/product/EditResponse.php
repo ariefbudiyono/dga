@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Responses\Backend\product;
+namespace App\Http\Responses\Backend\Product;
 
 use Illuminate\Contracts\Support\Responsable;
 

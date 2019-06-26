@@ -222,6 +222,29 @@ return [
                     'answer'   => 'Answer',
                     'status'   => 'Status',
             ],
+
+            'customerorders' => [
+                'factory'           => 'Factory',
+                'tgl'               => 'Tanggal',
+                'issue_by'          => 'Issue By',
+                'attention'         => 'Attention',
+                'payment'           => 'Payment',
+                'trade_terms'       => 'Trade Terms',
+                'trans_type'        => 'Trans Type',
+                'npwp'              => 'NPWP',
+                'billing_place '    => 'Billing Place',
+                'delivery_site'     => 'Delivery Site',
+                'incharge'          => 'Incharge',
+                'ass_manager'       => 'Ass Manager',
+                'manager'           => 'Manager',
+                'g_manager'         => 'G Manager',
+                'director'          => 'Director',
+                'pres_dir'          => 'Pres Dir',
+                'rule_payment'      => 'Rule Payment',
+                'po_total_qty'      => 'Po Total Qty',
+                'grand_total'       => 'Grand Total',
+                'status'            => 'Status'
+            ],
         ],
 
         'frontend' => [
