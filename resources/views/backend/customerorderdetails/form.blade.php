@@ -4,7 +4,7 @@
         {{--  {{ Form::label('customer_order_id', trans('labels.backend.customerorderdetails.table.customer_order_id'), ['class' => 'col-lg-2 control-label required']) }} --}}
 
         <div class="col-lg-10">
-          {{ Form::hidden('customer_order_id', 5, ['class' => 'form-control customer_order_id box-size', 'placeholder' => trans('labels.backend.customerorderdetails.table.customer_order_id'), 'required' => 'required']) }}         
+          {{ Form::hidden('customer_order_id', 1, ['class' => 'form-control customer_order_id box-size', 'placeholder' => trans('labels.backend.customerorderdetails.table.customer_order_id'), 'required' => 'required']) }}         
         </div><!--col-lg-10-->
     </div><!--form-group-->
 

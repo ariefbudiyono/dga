@@ -106,6 +106,34 @@ return [
 	"not_found" => "That Factory does not exist.",
 	"update_error" => "There was a problem updating this Factory. Please try again.",
 	],
+	"purchaseorders" => [
+	"already_exists" => "That Purchaseorder already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Purchaseorder. Please try again.",
+	"delete_error" => "There was a problem deleting this Purchaseorder. Please try again.",
+	"not_found" => "That Purchaseorder does not exist.",
+	"update_error" => "There was a problem updating this Purchaseorder. Please try again.",
+	],
+	"purchaseorderdetails" => [
+	"already_exists" => "That Purchaseorderdetail already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Purchaseorderdetail. Please try again.",
+	"delete_error" => "There was a problem deleting this Purchaseorderdetail. Please try again.",
+	"not_found" => "That Purchaseorderdetail does not exist.",
+	"update_error" => "There was a problem updating this Purchaseorderdetail. Please try again.",
+	],
+	"suppliers" => [
+	"already_exists" => "That Supplier already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Supplier. Please try again.",
+	"delete_error" => "There was a problem deleting this Supplier. Please try again.",
+	"not_found" => "That Supplier does not exist.",
+	"update_error" => "There was a problem updating this Supplier. Please try again.",
+	],
+	"warehouses" => [
+	"already_exists" => "That Warehouse already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Warehouse. Please try again.",
+	"delete_error" => "There was a problem deleting this Warehouse. Please try again.",
+	"not_found" => "That Warehouse does not exist.",
+	"update_error" => "There was a problem updating this Warehouse. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [

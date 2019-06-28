@@ -33,10 +33,10 @@ class CreateCustomerOrderDetailTable extends Migration
             $table->integer('unit_price')->default(0);
             $table->integer('amount')->default(0);
 
-            $table->string('etd', 100);
-            $table->string('eta', 100);
+            $table->string('etd', 128)->nullable();
+            $table->string('eta', 128)->nullable();
 
-            $table->string('model', 100);
+            $table->string('model', 128)->nullable();
 
             $table->timestamps();
         });

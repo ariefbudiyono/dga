@@ -15,7 +15,7 @@ class CreateFactoriesTable extends Migration
     {
         Schema::create('factories', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name', 128);
+            $table->string('name', 128)->nullable();
             $table->timestamps();
         });
     }

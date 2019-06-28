@@ -21,3 +21,7 @@ require __DIR__.'/Product.php';
 require __DIR__.'/Customerorder.php';
 require __DIR__.'/Customerorderdetail.php';
 require __DIR__.'/Factory.php';
+require __DIR__.'/Purchaseorder.php';
+require __DIR__.'/Purchaseorderdetail.php';
+require __DIR__.'/Supplier.php';
+require __DIR__.'/Warehouse.php';

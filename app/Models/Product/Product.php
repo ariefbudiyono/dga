@@ -31,9 +31,9 @@ class Product extends BaseModel
      * @var array
      */
     protected $fillable = [
-            'name',            
-            'created_by', 
-            'updated_by'
+            'name',
+            'material'           
+            
     ];
 
     

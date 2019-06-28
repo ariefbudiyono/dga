@@ -74,5 +74,25 @@ return [
 	"deleted" => "The Factory was successfully deleted.",
 	"updated" => "The Factory was successfully updated.",
 	],
+	"purchaseorders" => [
+	"created" => "The Purchaseorder was successfully created.",
+	"deleted" => "The Purchaseorder was successfully deleted.",
+	"updated" => "The Purchaseorder was successfully updated.",
+	],
+	"purchaseorderdetails" => [
+	"created" => "The Purchaseorderdetail was successfully created.",
+	"deleted" => "The Purchaseorderdetail was successfully deleted.",
+	"updated" => "The Purchaseorderdetail was successfully updated.",
+	],
+	"suppliers" => [
+	"created" => "The Supplier was successfully created.",
+	"deleted" => "The Supplier was successfully deleted.",
+	"updated" => "The Supplier was successfully updated.",
+	],
+	"warehouses" => [
+	"created" => "The Warehouse was successfully created.",
+	"deleted" => "The Warehouse was successfully deleted.",
+	"updated" => "The Warehouse was successfully updated.",
+	],
 	],
 ];

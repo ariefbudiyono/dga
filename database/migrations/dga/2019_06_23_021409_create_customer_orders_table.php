@@ -30,26 +30,26 @@ class CreateCustomerOrdersTable extends Migration
 
 
             $table->date('tgl');
-            $table->string('issue_by', 128);
-            $table->string('attention', 128);
-            $table->string('payment', 255);
-            $table->string('trade_terms', 255);            
-            $table->string('trans_type', 255);
-            $table->string('npwp', 128);
-            $table->string('billing_place', 128);
-            $table->string('delivery_site', 128);
+            $table->string('issue_by', 128)->nullable();
+            $table->string('attention', 128)->nullable();
+            $table->string('payment', 255)->nullable();
+            $table->string('trade_terms', 255)->nullable();            
+            $table->string('trans_type', 255)->nullable();
+            $table->string('npwp', 128)->nullable();
+            $table->string('billing_place', 128)->nullable();
+            $table->string('delivery_site', 128)->nullable();
 
-            $table->string('incharge', 128);
-            $table->string('ass_manager', 128);
-            $table->string('manager', 128);
-            $table->string('g_manager', 128);
-            $table->string('director', 128);
-            $table->string('pres_dir', 128);
+            $table->string('incharge', 128)->nullable();
+            $table->string('ass_manager', 128)->nullable();
+            $table->string('manager', 128)->nullable();
+            $table->string('g_manager', 128)->nullable();
+            $table->string('director', 128)->nullable();
+            $table->string('pres_dir', 128)->nullable();
 
 
-            $table->string('rule_payment', 128);
-            $table->integer('po_total_qty');
-            $table->integer('grand_total');
+            $table->string('rule_payment', 128)->nullable();
+            $table->integer('po_total_qty')->default(0);
+            $table->integer('grand_total')->default(0);
 
             $table->enum('status', ['draft','validated', 'proses','delivered','cancel']);
 

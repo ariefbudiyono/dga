@@ -27,7 +27,7 @@ class UpdateProductRequest extends FormRequest
             //Put your rules for the request in here
             //For Example : 'title' => 'required'
             //Further, see the documentation : https://laravel.com/docs/5.4/validation#creating-form-requests
-            'name' => 'required|unique:products|max:128',
+            //'name' => 'required|unique:products|max:128',
         ];
     }
 

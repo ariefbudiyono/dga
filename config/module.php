@@ -32,4 +32,16 @@ return [
 	"factories" => [
 	"table" => "factories",
 	],
+	"purchaseorders" => [
+	"table" => "purchase_orders",
+	],
+	"purchaseorderdetails" => [
+	"table" => "purchase_order_details",
+	],
+	"suppliers" => [
+	"table" => "suppliers",
+	],
+	"warehouses" => [
+	"table" => "warehouses",
+	],
 ];
